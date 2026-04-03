@@ -12,7 +12,7 @@ pnpm format       # Auto-format with Biome
 ## Tech Stack
 
 - **Next.js 16** (App Router) with React 19 and React Compiler enabled
-- **Tailwind CSS 4** (via `@tailwindcss/postcss`)
+- **Custom CSS** (no Tailwind) — all styles in `app/globals.css`
 - **Biome 2** for linting and formatting (not ESLint/Prettier)
 - **TypeScript** (strict mode)
 - **pnpm** as package manager
@@ -21,8 +21,8 @@ pnpm format       # Auto-format with Biome
 
 - Biome enforces 2-space indentation, organized imports, and recommended lint rules for React/Next.js
 - `@/*` path alias maps to project root
-- Tailwind theme tokens defined in `app/globals.css` via `@theme inline`
-- Geist font family exposed as CSS variables `--font-geist-sans` and `--font-geist-mono`
+- CSS variables for theming defined in `app/globals.css`
+- Outfit and Quicksand fonts exposed as CSS variables `--font-outfit` and `--font-quicksand`
 
 ## Architecture
 
