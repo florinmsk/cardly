@@ -1,6 +1,14 @@
-"use client";
-
-import { Icon } from "@iconify/react";
+import {
+  Envelope,
+  FacebookLogo,
+  Globe,
+  InstagramLogo,
+  LinkedinLogo,
+  Palette,
+  Phone,
+  UploadSimple,
+  XLogo,
+} from "@phosphor-icons/react/dist/ssr";
 
 export default function HeroSection() {
   return (
@@ -26,7 +34,7 @@ export default function HeroSection() {
               Start for free →
             </a>
             <a href="#templates" className="btn btn-lg btn-ghost">
-              <Icon icon="ph:palette" width={18} /> View templates
+              <Palette size={18} /> View templates
             </a>
           </div>
           <div className="hero-stats">
@@ -76,7 +84,7 @@ export default function HeroSection() {
                 <div className="dc-contacts">
                   <div className="dc-ci">
                     <div className="dc-ci-icon dci-v">
-                      <Icon icon="ph:envelope" width={14} />
+                      <Envelope size={14} />
                     </div>
                     <div>
                       <div className="dc-ci-lbl">Email</div>
@@ -85,7 +93,7 @@ export default function HeroSection() {
                   </div>
                   <div className="dc-ci">
                     <div className="dc-ci-icon dci-p">
-                      <Icon icon="ph:phone" width={14} />
+                      <Phone size={14} />
                     </div>
                     <div>
                       <div className="dc-ci-lbl">Phone</div>
@@ -94,7 +102,7 @@ export default function HeroSection() {
                   </div>
                   <div className="dc-ci">
                     <div className="dc-ci-icon dci-t">
-                      <Icon icon="ph:globe" width={14} />
+                      <Globe size={14} />
                     </div>
                     <div>
                       <div className="dc-ci-lbl">Website</div>
@@ -103,13 +111,13 @@ export default function HeroSection() {
                   </div>
                 </div>
                 <div className="dc-social">
-                  <div className="dc-social-btn"><Icon icon="ph:linkedin-logo" width={14} /></div>
-                  <div className="dc-social-btn"><Icon icon="ph:x-logo" width={14} /></div>
-                  <div className="dc-social-btn"><Icon icon="ph:instagram-logo" width={14} /></div>
-                  <div className="dc-social-btn"><Icon icon="ph:facebook-logo" width={14} /></div>
+                  <div className="dc-social-btn"><LinkedinLogo size={14} /></div>
+                  <div className="dc-social-btn"><XLogo size={14} /></div>
+                  <div className="dc-social-btn"><InstagramLogo size={14} /></div>
+                  <div className="dc-social-btn"><FacebookLogo size={14} /></div>
                 </div>
                 <button className="dc-save-btn">
-                  <Icon icon="ph:upload-simple" width={14} /> Save contact
+                  <UploadSimple size={14} /> Save contact
                 </button>
               </div>
             </div>
